@@ -1,3 +1,12 @@
 .asteroid.big{color: blue;}
 .container{border: 1px;border-color: green;border-style: solid;}
 p{background-color:yellow;}
+div:hover{background-color: aquamarine;}
+.bottombox{margin-top: 20px;background-color: red;border:2px;border-style: solid;border-color: lightblue;border-radius: 2px;
+width: 300px;height: 80px;display:flex;justify-content: space-around;align-items: center;}
+.card2{width: 50px;height: 50px;background-color:rebeccapurple;}
+.card{width: 50px;height: 50px;background-color: blue;}
+.topbox{border:2px;border-style: solid;border-color: blue;border-radius: 2px;
+width: 300px;height: 80px;color: black;display:flex;justify-content: space-around;align-items: center;}
+.card{width: 50px;height: 50px;background-color: blue;}
+.boxes{padding-top: 20px;display:flex;flex-direction:column;width: 350px;align-items: center;} 
