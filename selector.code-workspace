@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../JScript"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "selector"
+	}
+}

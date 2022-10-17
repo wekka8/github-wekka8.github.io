@@ -1,5 +1,5 @@
 let nevem = "WEKKA"
-let azEnKorom = 2
+let azEnKorom = 21
         console.log ('Betoltott a JS is.')
 // ez egy egysoros komment        
 /*
@@ -38,3 +38,33 @@ $("ul").append ("<li>GOMB altal hozzaadott egy elem</li>")
 $("#button02").click(function(){
 $("li:last-of-type").remove()
 })
+let x='0'
+$('#button03').click (function(){
+$('.container02 div:first-of-type').css ('background-color',szinek[x])
+        if (x<4) {x++}
+        else{x='0'}
+})
+
+//ciklus
+for (let i = 0; i<2; i=i+1){
+        $("ul").append('<li>ciklusbol beirt extra sor</li>')
+}
+
+var szinek = ['orange','black', 'green','red','pink']
+// let szinek = Array ('blue','red','orange','yellow','pink')
+function szindodoz (szin) {
+        $('.container02').append ('<div class="doboz"> </div>')
+        $('.container02 div:last-of-type').css ('background-color',szin)
+}
+
+//szindodoz('pink')
+szinek.forEach (szindodoz)
+
+
+// $('.container02').append ('<div class="doboz"></div>')
+//$('.container02 div:last-of-type').css('background-color',"green")
+//$('.container02 div:last-of-type').css('background-color',szinek[3])
+console.log (szinek[1])
+//$("#button03").click(function()){
+//        $("#button3").css ("background-color", szinek[3])
+//}
